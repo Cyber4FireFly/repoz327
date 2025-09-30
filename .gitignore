@@ -1,0 +1,80 @@
+# Зависимости
+node_modules
+/node_modules/
+/bower_components/
+
+# Сборки и дистрибутивы
+/dist/
+dist
+dist-ssr
+/build/
+/target/
+/out/
+/coverage/
+
+# Логи
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Локальное окружение
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+secrets.json
+api_keys.json
+config.env
+
+# IDE и редакторы
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.csproj.user*
+*.userprefs
+
+# Временные файлы и кэш
+/tmp/
+/.tmp/
+.temp
+.tmp
+Thumbs.db
+.DS_Store
+*.tmp
+*.bak
+*.swp
+*.local
+
+# Сгенерированные файлы
+*.class
+*.pyc
+*.o
+*.dSYM
+
+# Базы данных
+*.sqlite
+*.db
+*.mdb
+
+# Файлы настроек
+config.json
+config.ini
+config.yaml
+settings.json
+
+# Файлы macOS
+.localized/
+
+# Файлы Windows
+*.exe
+*.dll
